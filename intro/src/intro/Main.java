@@ -62,6 +62,8 @@ public class Main {
 		sayilar1 = sayilar2;
 		sayilar2[0] = 100;
 		System.out.println(sayilar1[0]);//100
+		
+		System.out.println("Ders Sonu");
 	
 		
 	
