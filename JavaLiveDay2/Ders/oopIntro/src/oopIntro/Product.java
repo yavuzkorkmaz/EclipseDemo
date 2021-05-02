@@ -1,9 +1,14 @@
 package oopIntro;
 
-public class Product {  //bu Class özellik tutuyor
+public class Product {  //bu Class Ã¶zellik tutuyor
+	
+        int id;
+	String name;
+	double unitPrice;
+	String detail;
 	
 	public Product() { //constructor 
-		System.out.println("Ben Çalýþtým.");
+		System.out.println("Ben Ã‡alÃ½Ã¾tÃ½m.");
 	}
 	
 	public Product(int id,String name,String detail,double unitPrice) {
@@ -15,10 +20,7 @@ public class Product {  //bu Class özellik tutuyor
 	}
 	
 	
-	int id;
-	String name;
-	double unitPrice;
-	String detail;
+
 	
 
 }
