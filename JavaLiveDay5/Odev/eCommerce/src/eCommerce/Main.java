@@ -8,13 +8,12 @@ import eCommerce.dataBase.concretes.HibernateUserDao;
 import eCommerce.entities.concretes.User;
 
 public class Main {
+	
+	public static void main(String args[]) {
 	User user1=new User(1, "yavuz", "selim", "yavuzslm@gmail.com", "1234567");
 	UserService userService = new UserManager(new HibernateUserDao(),new CheckManager(),new ValidityManager());
+	userService.register(user1);
 	
-	//userService.register(user1);
-	
-
-	
-	
+	}
 
 }
